@@ -37,10 +37,8 @@ data/processed/*
 !data/processed/.gitkeep
 
 # Large datasets
-*.csv
 *.tsv
 *.parquet
-*.xlsx
 *.xls
 *.feather
 *.dta
