@@ -1,0 +1,105 @@
+# ----------------------------
+# Python
+# ----------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
+*.code-workspace
+
+# Mac + Windows system files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+log/
+
+# Data files (optional: keep only raw small ones)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Large datasets
+*.csv
+*.tsv
+*.parquet
+*.xlsx
+*.xls
+*.feather
+*.dta
+
+# Model weights / artifacts
+*.h5
+*.hdf5
+*.ckpt
+*.pt
+*.pth
+*.joblib
+*.pickle
+*.pkl
+*.model
+*.bin
+
+# HuggingFace / Transformers cache
+huggingface/
+~/.cache/huggingface/
+~/.cache/torch/
+~/.cache/
+
+# Python cache
+*.egg-info/
+.eggs/
+*.egg
+build/
+dist/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Cache folders
+.cache/
+__pycache__/
+.ipynb_checkpoints/
+
+# Streamlit cache
+.streamlit/
+
+# Environment files
+.env
+.env.*
+*.ini
+
+# IDEs
+.idea/
+.spyderproject
+.spyproject
+
+# Azure, AWS, GCP configs
+*.pem
+*.key
+*.json
+
+# Local notebooks temp
+*.nbconvert.ipynb
+
+# Pytorch Lightning checkpoints
+lightning_logs/
