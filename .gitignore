@@ -31,8 +31,6 @@ logs/
 log/
 
 # Data files (optional: keep only raw small ones)
-data/raw/*
-data/processed/*
 !data/raw/.gitkeep
 !data/processed/.gitkeep
 
